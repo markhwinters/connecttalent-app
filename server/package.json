@@ -1,0 +1,25 @@
+{
+  "name": "files",
+  "version": "1.0.0",
+  "description": "- **Express.js** — REST API - **PostgreSQL + Drizzle ORM** — Database & migrations - **WebSockets (ws)** — Real-time signaling - **Redis (ioredis)** — Pub/Sub backplane for multi-server scaling - **Arcjet** — Rate limiting, bot protection, shield - **WebRTC** — P2P file transfer (signaled via WS, no server relay)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@arcjet/node": "^1.1.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "drizzle-orm": "^0.45.1",
+    "express": "^5.2.1",
+    "helmet": "^8.1.0",
+    "ioredis": "^5.10.0",
+    "pg": "^8.19.0",
+    "uuid": "^13.0.0",
+    "ws": "^8.19.0"
+  }
+}
