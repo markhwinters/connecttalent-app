@@ -80,7 +80,7 @@ export default function Onboarding() {
         <div className="w-16 h-16 mx-auto rounded-2xl gradient-bg flex items-center justify-center mb-4 shadow-lg shadow-accent-violet/30 animate-float">
           <Ghost className="w-8 h-8 text-white" />
         </div>
-        <h1 className="text-4xl font-extrabold gradient-text mb-2">Connect Talent</h1>
+        <h1 className="text-4xl font-extrabold gradient-text mb-2">ConnectTalent</h1>
         <p className="text-zinc-400 text-sm max-w-xs mx-auto">
           Ephemeral professional networking. Match, chat, and connect — before time runs out.
         </p>

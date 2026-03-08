@@ -1,0 +1,15 @@
+# Server
+PORT=3001
+NODE_ENV=development
+
+# PostgreSQL (Neon or local)
+DATABASE_URL=postgresql://neondb_owner:npg_TRLj7qreOKd2@ep-square-tree-a4psf5ga-pooler.us-east-1.aws.neon.tech/neondb?sslmode=verify-full&channel_binding=require
+
+# Redis
+REDIS_URL=redis://default:*******@redis-16011.crce220.us-east-1-4.ec2.cloud.redislabs.com:16011
+
+# Arcjet
+ARCJET_KEY=ajkey_01k4dcj46veme83dzfewbgkwqf
+
+# CORS - comma-separated origins
+ALLOWED_ORIGINS=http://localhost:5173,http://localhost:3000

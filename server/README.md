@@ -1,4 +1,4 @@
-# Connect-Talent Server — Ephemeral Edition
+# ConnectTalent Server — Ephemeral Edition
 
 An ephemeral networking platform inspired by **Snapchat's self-destructing model**. User sessions, matches, and chat messages all have a limited lifespan — nothing persists forever.
 
